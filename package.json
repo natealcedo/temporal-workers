@@ -1,0 +1,23 @@
+{
+  "name": "temporal-workers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@temporalio/client": "^1.10.1",
+    "@temporalio/worker": "^1.10.1",
+    "@temporalio/workflow": "^1.10.1"
+  }
+}
